@@ -8,7 +8,7 @@ export default function App() {
         <Button style={{flex: 1}} title ='Add Goal'/>
       </View>
       <View>
-        <Text> List of goals!!! </Text>
+        <Text> HeyHey!!!List of goals!!! </Text>
       </View>
     </View>
   );
