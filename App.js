@@ -7,8 +7,13 @@ export default function App() {
         <TextInput style={styles.textInput} placeholder='Your course goal!' />
         <Button style={{flex: 1}} title ='Add Goal'/>
       </View>
+<<<<<<< HEAD
       <View style={styles.goalsContainer}>
         <Text> HeyHey!!!List of goals!!! </Text>
+=======
+      <View>
+        <Text> !!!List of goals!!! </Text>
+>>>>>>> origin/master
       </View>
     </View>
   );
