@@ -1,3 +1,4 @@
+import React from 'react';
 import { StyleSheet, Text, View, Button, TextInput} from 'react-native';
 import { useState } from 'react';
 
@@ -15,6 +16,7 @@ export default function App() {
       ...currentCourseGoals,
       enteredGoalText
     ]);
+
   };
   return (
     <View style={styles.appContainer}>
@@ -22,15 +24,8 @@ export default function App() {
         <TextInput style={styles.textInput} placeholder='Your course goal!' onChangeText={goalInputHandler}/>
         <Button style={{flex: 1}} title ='Add Goal' onPress={addGoalHandler}/>
       </View>
-<<<<<<< HEAD
       <View style={styles.goalsContainer}>
         {courseGoals.map((goal) => <Text key={goal}>{goal}</Text>)}
-=======
-      <View>
-        <Text> !!!List of goals!!! </Text>
-        <Text> !!!List of goals!!! </Text>
-        <Text> !!!List of goals!!! </Text>
->>>>>>> origin/master
       </View>
     </View>
   );
